@@ -45,7 +45,7 @@
 }
 main{
     padding-top: 70px;
-    background: linear-gradient(0deg, rgba(255,255,255,1) 22%, rgba(176,210,217,1) 22%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 62%, rgba(176,210,217,1) 62%);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -90,17 +90,16 @@ main{
 .fa-solid, .fas {
     font-weight: 900;
     display: flex;
-    width: 50%;
     align-content: center;
     justify-content: flex-end;
     align-items: center;
-    height: 54%;
+    
 }
 .container-main-2{
     padding-top: 70px;
     width: 50%;
     display: flex;
-    
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .box-titolo-2{
@@ -117,7 +116,7 @@ main{
 .box-bottone-radio{
     width: 100%;
     display: flex;
-    
+    margin-bottom: 20px;
 }
 .bottone-radio {
     display: block;
@@ -174,18 +173,63 @@ main{
 }
 .colonna-1{
     width: 30%;
-}
-.container-colonne{
-
     
 }
 .categoria-colonna{
     display: flex;
-    border: 1px solid black;
+    border: 1px solid gray;
     text-align: end;
     padding: 3px;
+    justify-content: center;
 }
-.colonna-testo{
-    border: 1px solid black;
-
+.colonna{
+    border: 1px solid gray;
+    padding: 15px;
+    height: 95%;
+}
+.testo-colonna{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.prezzo-colonna{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.tempo-colonna{
+    color: gray;
+    margin-bottom: 60px;
+}
+.utenti-colonna{
+    margin-bottom: 10px;
+}
+.spazio-archivazione-colonna{
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.bottone-2-main{
+    width: 90%;
+    height: 30px;
+    background-color: blue;
+    margin-top: 30px;
+    color: white;
+    border: none;
+}
+.link-aquisto{
+    margin-top: 20px;
+}
+.linea-colonna{
+    margin-top: 30px;
+    width: 20%;
+    margin-bottom: 30px;
+}
+.container-riga-fine-main{
+    text-align: center;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 30px;
+}
+.container-riga-fine-main-2{
+    width: 100%;
+    border: 1px solid gray;
 }
