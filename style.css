@@ -68,7 +68,7 @@ main{
     font-size: 65px;
     text-align: left;
 }
-.immagine{
+.immagine-header{
     height: 68%;
     width: 60%;
 }
@@ -346,15 +346,30 @@ main{
     height: 50%;
     background-color: green;
 }
-.immagine-verde{
+.quadrato-rosso{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+.quadrato-blu{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+.quadrato-marrone{
+    width: 50%;
+    height: 50%;
+    background-color: brown;
+}
+.immagine{
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 75px;
+    filter: invert(2);
 }
 .quadrato-grigio{
     width: 100%;
-    height: 30%;
-    
+    height: 30%; 
 }
 .testo-main-5{
     padding: 20px;
