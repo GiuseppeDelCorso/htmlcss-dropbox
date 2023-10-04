@@ -64,7 +64,7 @@
 }
 main{
     padding-top: 70px;
-    background: linear-gradient(0deg, rgba(255,255,255,1) 86%, rgba(176,210,217,1) 86%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 87%, rgba(176,210,217,1) 88%);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -92,8 +92,9 @@ main{
     width: 60%;
 }
 #frecciona{
-    position: absolute;
-    bottom: -100px;
+    position: relative;
+    top: 107px;
+    right: 192px;
     font-size: 50px;
 }
 
