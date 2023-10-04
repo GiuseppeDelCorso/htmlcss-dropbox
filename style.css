@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 .container-header{
@@ -17,6 +18,8 @@
 .link-1{
     display: flex;
     width: 40%;
+    height: 100%;
+    align-items: center;
 }
 .logo-dropbox{
     width: 15%;
@@ -24,12 +27,22 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin: 8px;
+    background-position: center;
+    height: 100%;
+
 }
 .link-header{
     width: 15%;
-    padding: 8px;
     text-align: center;
     font-size: 15px;
+    padding-top: 28px;
+    height: 72px;
+    
+}
+.link-header:hover{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    
 }
 .link-2{
     display: flex;
@@ -41,11 +54,12 @@
     color: white;
     border: none;
     width: 10%;
-    margin-right: 10px;
+    margin: 15px;
+    height: 40px;
 }
 main{
     padding-top: 70px;
-    background: linear-gradient(0deg, rgba(255,255,255,1) 62%, rgba(176,210,217,1) 62%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 86%, rgba(176,210,217,1) 86%);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -382,4 +396,82 @@ main{
 .linea-2-gruppo{
     width: 20%;
     margin-left: 20px;
+}
+.container-main-6{
+    width: 100%;
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.box-main-6{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testo-main-6{
+    font-size: 40px;
+    color: brown;
+}
+.bottone-main-6{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.container-main-7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.box-main-7{
+    width: 53%;
+}
+.contenuto-main-7{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+
+.liena-main-7{
+    margin: 20px 0 20px 0;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+}
+.container-footer{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.lista{
+    margin: 20px;
+    
+}
+.titolo-lista-footer{
+    margin-bottom: 10px;
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+.contenuto-lista-footer{
+    list-style: none;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-size: 12px;
+}
+.container-footer-2{
+    width: 70%;
+    
 }
